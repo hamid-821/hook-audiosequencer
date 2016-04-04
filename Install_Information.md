@@ -1,0 +1,12 @@
+# Introduction #
+
+Please follow these directions to make sure your FLA compiles correctly.
+
+
+# Details #
+To create a flash project, make sure you link to our "Classes" directory in your source path, and our "libs" directory in your Library Path.
+
+
+IMPORTANT!!!
+When including the oggvorbis.swc in your library path, you must select "Compile SWC" in your publish settings, or you will get a weird ReferenceError.
+IMPORTANT!!!
